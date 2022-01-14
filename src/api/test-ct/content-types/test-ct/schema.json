@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_cts",
+  "info": {
+    "singularName": "test-ct",
+    "pluralName": "test-cts",
+    "displayName": "TestCT"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "field11": {
+      "type": "string"
+    }
+  }
+}
