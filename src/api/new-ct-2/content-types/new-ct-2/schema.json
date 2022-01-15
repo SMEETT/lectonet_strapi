@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "new_ct_2s",
+  "info": {
+    "singularName": "new-ct-2",
+    "pluralName": "new-ct-2s",
+    "displayName": "newCT2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ewfwef": {
+      "type": "string"
+    }
+  }
+}
