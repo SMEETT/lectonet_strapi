@@ -17,9 +17,6 @@
     },
     "anotherField": {
       "type": "string"
-    },
-    "birthday": {
-      "type": "date"
     }
   }
 }
