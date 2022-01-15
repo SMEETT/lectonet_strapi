@@ -4,7 +4,8 @@
   "info": {
     "singularName": "test-ct",
     "pluralName": "test-cts",
-    "displayName": "TestCT"
+    "displayName": "TestCT",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -12,6 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "field11": {
+      "type": "string"
+    },
+    "NewOne": {
       "type": "string"
     }
   }
