@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "new_ct_3s",
+  "info": {
+    "singularName": "new-ct-3",
+    "pluralName": "new-ct-3s",
+    "displayName": "newCT3"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rge": {
+      "type": "string"
+    }
+  }
+}
