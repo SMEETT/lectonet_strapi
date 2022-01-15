@@ -4,7 +4,8 @@
   "info": {
     "singularName": "thirdct",
     "pluralName": "thirdcts",
-    "displayName": "THIRDCT"
+    "displayName": "THIRDCT",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,12 @@
   "attributes": {
     "fewfe": {
       "type": "string"
+    },
+    "anotherField": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "date"
     }
   }
 }
