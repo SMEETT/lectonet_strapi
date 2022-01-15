@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "thirdcts",
+  "info": {
+    "singularName": "thirdct",
+    "pluralName": "thirdcts",
+    "displayName": "THIRDCT"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fewfe": {
+      "type": "string"
+    }
+  }
+}
