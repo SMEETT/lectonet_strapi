@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_category_preis",
+  "info": {
+    "displayName": "Preis",
+    "icon": "money-check-alt"
+  },
+  "options": {},
+  "attributes": {
+    "leistung": {
+      "type": "string",
+      "required": true
+    },
+    "CSV": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

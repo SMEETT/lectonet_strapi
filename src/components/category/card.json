@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_category_cards",
+  "info": {
+    "displayName": "card",
+    "icon": "credit-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "teasertext": {
+      "type": "text",
+      "required": true
+    },
+    "position": {
+      "type": "integer"
+    }
+  }
+}

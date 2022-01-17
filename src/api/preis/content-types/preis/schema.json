@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "preise",
+  "info": {
+    "singularName": "preis",
+    "pluralName": "preise",
+    "displayName": "Preise"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Preis": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category.preis"
+    }
+  }
+}

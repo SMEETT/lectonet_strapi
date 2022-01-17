@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_category_faqs",
+  "info": {
+    "displayName": "FAQ",
+    "icon": "question-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "answer": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

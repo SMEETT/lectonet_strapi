@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "indices",
+  "info": {
+    "singularName": "index",
+    "pluralName": "indices",
+    "displayName": "Index",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "text",
+      "required": true
+    },
+    "subheadline": {
+      "type": "text"
+    },
+    "copytext": {
+      "type": "richtext",
+      "required": true
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category.card"
+    },
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "string"
+    },
+    "meta_keywords": {
+      "type": "string"
+    }
+  }
+}
