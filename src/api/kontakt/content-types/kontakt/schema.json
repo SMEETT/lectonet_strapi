@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "kontakts",
+  "info": {
+    "singularName": "kontakt",
+    "pluralName": "kontakts",
+    "displayName": "Kontakt",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "copytext": {
+      "type": "richtext"
+    },
+    "subhead": {
+      "type": "text"
+    }
+  }
+}
