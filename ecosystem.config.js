@@ -24,7 +24,8 @@ module.exports = {
     {
       name: "lectonet_strapi",
       script: "./strapi_server.js",
-      watch: true,
+      watch: false,
+      ignore_watch: ["database"],
       autorestart: true,
       env: {
         NODE_ENV: "production",
