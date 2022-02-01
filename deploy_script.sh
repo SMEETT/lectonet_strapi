@@ -1,7 +1,7 @@
 pm2 stop lectonet_strapi
 cd /var/lib/pm2node/lectonet_strapi
 npm install
-# npm run build
+npm run build
 # git clean -f
 # git clean -d -f
 # git checkout main
