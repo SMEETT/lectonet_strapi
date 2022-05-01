@@ -29,7 +29,9 @@ module.exports = {
       autorestart: true,
       env: {
         NODE_ENV: "production",
-        APP_KEYS: secretKeys,
+        APP_KEYS: secretKeys.slice(0, 3),
+        JWT_SECRET: secretKeys[3],
+        API_TOKEN_SALT: secretKeys[4],
       },
     },
   ],
