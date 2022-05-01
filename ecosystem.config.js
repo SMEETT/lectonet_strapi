@@ -10,6 +10,7 @@ const getSecretKeys = () => {
     secretsArray[secretsArray.length - 1] = secretsArray[
       secretsArray.length - 1
     ].replace(/(\r\n|\n|\r)/gm, "");
+    console.log("SECRETS", secretsArray);
     return secretsArray;
   } catch (error) {
     console.error(`Error reading SecretKeys ${error}`);
