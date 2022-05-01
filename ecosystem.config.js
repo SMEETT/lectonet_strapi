@@ -32,6 +32,7 @@ module.exports = {
         APP_KEYS: secretKeys.slice(0, 3),
         JWT_SECRET: secretKeys[3],
         API_TOKEN_SALT: secretKeys[4],
+        ADMIN_JWT_SECRET: secretKeys[5],
       },
     },
   ],
